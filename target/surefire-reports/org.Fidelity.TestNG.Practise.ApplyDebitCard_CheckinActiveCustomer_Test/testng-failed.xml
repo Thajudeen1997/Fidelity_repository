@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [org.Fidelity.TestNG.Practise.ApplyDebitCard_CheckinActiveCustomer_Test]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="org.Fidelity.TestNG.Practise.ApplyDebitCard_CheckinActiveCustomer_Test">
+        <methods>
+          <include name="classSetup"/>
+          <include name="TestCase2Test"/>
+          <include name="testDataSetup"/>
+        </methods>
+      </class> <!-- org.Fidelity.TestNG.Practise.ApplyDebitCard_CheckinActiveCustomer_Test -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [org.Fidelity.TestNG.Practise.ApplyDebitCard_CheckinActiveCustomer_Test] -->

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="25" started-at="2022-09-20T08:05:12Z" finished-at="2022-09-20T08:05:12Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="25" started-at="2022-09-20T08:05:12Z" finished-at="2022-09-20T08:05:12Z">
+      <class name="org.Fidelity.TestNG.Practise.Test1_Test">
+        <test-method status="PASS" signature="Run1()[pri:0, instance:org.Fidelity.TestNG.Practise.Test1_Test@5cee5251]" name="Run1" duration-ms="10" started-at="2022-09-20T13:35:12Z" finished-at="2022-09-20T13:35:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Run1 -->
+      </class> <!-- org.Fidelity.TestNG.Practise.Test1_Test -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
