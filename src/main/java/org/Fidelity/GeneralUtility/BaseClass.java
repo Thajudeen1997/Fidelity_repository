@@ -73,6 +73,8 @@ public class BaseClass {
 		sdriver = driver;
 		webDriverUtility.openingWebpage(browser, commonData, 0, 10);
 		commonPage = new CommonPage(driver);
+
+		// changes done here
 		commonPage.ByPassSecurityCheck();
 		javaUtility.AssertionPageNavigationVerify(webDriverUtility.GetCurrentPageTitleMethod(), PageTitle.CUSTOMER_HOME_PAGE);
 		webDriverUtility.maximizingBrowser(driver);

@@ -5,5 +5,11 @@
 		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+<<<<<<< HEAD
+=======
+		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="E:\Software testing\TestYantra\wrokspace 2\Fidelity_repository"/>
+		</list>
+>>>>>>> branch 'master' of https://github.com/Thajudeen1997/Fidelity_repository.git
 	</section>
 </section>
