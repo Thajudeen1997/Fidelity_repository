@@ -80,7 +80,7 @@ public class BaseClass {
 
 		//4th changes		
 		//4th changes done by wrsp1
-		
+		// changes done in the branch ws-2
 		commonPage.ByPassSecurityCheck();
 		javaUtility.AssertionPageNavigationVerify(webDriverUtility.GetCurrentPageTitleMethod(), PageTitle.CUSTOMER_HOME_PAGE);
 		webDriverUtility.maximizingBrowser(driver);
