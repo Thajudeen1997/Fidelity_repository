@@ -44,7 +44,6 @@ public class CommonPage {
 			SafetyBypass.click();
 			ProceedLink.click();
 			OnlineBankingSystem.click();
-		
 	}
 	public void ClickStaffLogin() {
 		staffLoginLink.click();
@@ -53,7 +52,7 @@ public class CommonPage {
 		homepageLink.click();
 	}
 	public void ClickDynamicPathAction(PageLink pageLink) {
-		String requiredPath = DynamicXpath.format(DynamicXpath, pageLink.getPageLink());
+		String requiredPath = String.format(DynamicXpath, pageLink.getPageLink());
 		driver.findElement(By.xpath(requiredPath)).click();
 	}
 	public String staffLoginPageTitleMethod(WebDriver driver) {
