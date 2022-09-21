@@ -75,6 +75,7 @@ public class BaseClass {
 		commonPage = new CommonPage(driver);
 		commonPage.ByPassSecurityCheck();
 		// changes done by wksp-01
+		//2nd changes
 		javaUtility.AssertionPageNavigationVerify(webDriverUtility.GetCurrentPageTitleMethod(), PageTitle.CUSTOMER_HOME_PAGE);
 		webDriverUtility.maximizingBrowser(driver);
 		
