@@ -1,63 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite verbose="0" name="Failed suite [Command line suite]">
-  <test name="Command line test(failed)">
+  <test thread-count="5" verbose="0" name="Command line test(failed)">
     <classes>
-      <class name="org.Fidelity.TestNG.Practise.ApplyDebitCard_CheckinActiveCustomer_Test">
+      <class name="org.Fidelity.TestNG.Practise.Open_ApproveandVerifyInActiveCustomer_Test">
         <methods>
-          <include name="classSetup"/>
-          <include name="TestCase2Test"/>
+          <include name="classTearDown"/>
           <include name="testDataSetup"/>
+          <include name="TestCase1"/>
+          <include name="classSetup"/>
+          <include name="tearLogins"/>
         </methods>
-      </class> <!-- org.Fidelity.TestNG.Practise.ApplyDebitCard_CheckinActiveCustomer_Test -->
+      </class> <!-- org.Fidelity.TestNG.Practise.Open_ApproveandVerifyInActiveCustomer_Test -->
+      <class name="org.Fidelity.TestNG.Practise.CustomerModuleTest">
+        <methods>
+          <include name="TestCase1"/>
+          <include name="classTearDown"/>
+          <include name="testDataSetup"/>
+          <include name="TestCase3"/>
+          <include name="classSetup"/>
+          <include name="tearLogins"/>
+          <include name="TestCase2"/>
+          <include name="TestCase4"/>
+        </methods>
+      </class> <!-- org.Fidelity.TestNG.Practise.CustomerModuleTest -->
+      <class name="org.Fidelity.TestNG.Practise.CreditCustomer_VerifyInActiveCustomerPage_Test">
+        <methods>
+          <include name="classTearDown"/>
+          <include name="testDataSetup"/>
+          <include name="classSetup"/>
+          <include name="TestCase3"/>
+          <include name="tearLogins"/>
+        </methods>
+      </class> <!-- org.Fidelity.TestNG.Practise.CreditCustomer_VerifyInActiveCustomerPage_Test -->
+      <class name="org.Fidelity.TestNG.Practise.DeleteCustomer_VerifyInViewByACNoPage_Test">
+        <methods>
+          <include name="classTearDown"/>
+          <include name="TestCase4"/>
+          <include name="testDataSetup"/>
+          <include name="classSetup"/>
+          <include name="tearLogins"/>
+        </methods>
+      </class> <!-- org.Fidelity.TestNG.Practise.DeleteCustomer_VerifyInViewByACNoPage_Test -->
       <class name="launchBrowser.DemoWebShop_Test">
         <methods>
           <include name="launchingInstagram"/>
         </methods>
       </class> <!-- launchBrowser.DemoWebShop_Test -->
-      <class name="org.Fidelity.TestNG.Practise.CustomerModuleTest">
+      <class name="org.Fidelity.TestNG.Practise.ApplyDebitCard_CheckinActiveCustomer_Test">
         <methods>
-          <include name="TestCase1"/>
-          <include name="TestCase3"/>
-          <include name="TestCase2"/>
-          <include name="TestCase4"/>
-        </methods>
-      </class> <!-- org.Fidelity.TestNG.Practise.CustomerModuleTest -->
-      <class name="launchBrowser.Instagram_Test">
-        <methods>
-          <include name="launchingInstagram"/>
-        </methods>
-      </class> <!-- launchBrowser.Instagram_Test -->
-      <class name="org.Fidelity.TestNG.Practise.AnnotationPractiseTest">
-        <methods>
-          <include name="BeforeClass"/>
-          <include name="BeforeMethod1"/>
-          <include name="BeforeSuite"/>
-          <include name="BeforeMethod2"/>
-          <include name="AfterMethod1"/>
-          <include name="AfterMethod2"/>
-          <include name="BeforeTest"/>
-          <include name="AfterTest1"/>
-          <include name="AfterTest2"/>
-        </methods>
-      </class> <!-- org.Fidelity.TestNG.Practise.AnnotationPractiseTest -->
-      <class name="org.Fidelity.TestNG.Practise.CreditCustomer_VerifyInActiveCustomerPage_Test">
-        <methods>
+          <include name="classTearDown"/>
+          <include name="TestCase2Test"/>
           <include name="testDataSetup"/>
           <include name="classSetup"/>
-          <include name="TestCase3"/>
+          <include name="tearLogins"/>
         </methods>
-      </class> <!-- org.Fidelity.TestNG.Practise.CreditCustomer_VerifyInActiveCustomerPage_Test -->
-      <class name="org.Fidelity.TestNG.Practise.DeleteCustomer_VerifyInViewByACNoPage_Test">
-        <methods>
-          <include name="TestCase4"/>
-        </methods>
-      </class> <!-- org.Fidelity.TestNG.Practise.DeleteCustomer_VerifyInViewByACNoPage_Test -->
-      <class name="org.Fidelity.TestNG.Practise.Open_ApproveandVerifyInActiveCustomer_Test">
-        <methods>
-          <include name="TestCase1"/>
-        </methods>
-      </class> <!-- org.Fidelity.TestNG.Practise.Open_ApproveandVerifyInActiveCustomer_Test -->
+      </class> <!-- org.Fidelity.TestNG.Practise.ApplyDebitCard_CheckinActiveCustomer_Test -->
     </classes>
   </test> <!-- Command line test(failed) -->
 </suite> <!-- Failed suite [Command line suite] -->

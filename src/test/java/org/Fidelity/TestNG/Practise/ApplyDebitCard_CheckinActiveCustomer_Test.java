@@ -12,7 +12,7 @@ import pomRepository.ColumnElements;
 import pomRepository.PageLink;
 import pomRepository.PageTitle;
 
-public class ApplyDebitCard_CheckinActiveCustomer_Test extends BaseClass {
+public class ApplyDebitCard_CheckinActiveCustomer_Test extends BaseClassForAnnotationRun {
 	@Test
 	public void TestCase2Test() {
 		commonPage.ClickDynamicPathAction(PageLink.OPEN_ACCOUNT);
