@@ -77,7 +77,10 @@ public class BaseClass {
 		// changes done here
 		//2n changes done here
 		// 3rd changes
-		//4th changes
+
+		//4th changes		
+		//4th changes done by wrsp1
+		
 		commonPage.ByPassSecurityCheck();
 		javaUtility.AssertionPageNavigationVerify(webDriverUtility.GetCurrentPageTitleMethod(), PageTitle.CUSTOMER_HOME_PAGE);
 		webDriverUtility.maximizingBrowser(driver);
